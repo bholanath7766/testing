@@ -1,0 +1,18 @@
+<suite name="TestSuite01">
+  <test name="TC001">
+    <classes>
+      <class name="exercise1_M21_TestNG_Framework.TestClass01"/>
+        <methods>
+          <include name="tMethod1"></include>
+          <include name="tMethod2"></include>
+          <exclude name="tMethod5"></exclude>
+        </methods>
+    </classes>
+  </test>
+  
+  <test name="TC002">
+    <classes>
+      <class name="exercise1_M21_TestNG_Framework.TestClass02"/>
+    </classes>
+  </test>
+</suite>
